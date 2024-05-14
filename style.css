@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +10,8 @@ body {
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(135deg, #ffccff 0%, #ccffff 100%);
-    font-family: 'Edwardian Script ITC', sans-serif;
-    font-size: 2.5rem;
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
 }
 
 nav {
@@ -24,19 +26,19 @@ nav {
 
 
 
-nav ul li{
+nav ul li {
 
     list-style: none;
 }
 
-nav a{
+nav a {
     display: block;
     text-decoration: none;
     color: #332820;
     padding: 30px;
 }
 
-nav a:hover{
+nav a:hover {
     text-decoration: underline;
 }
 
@@ -49,7 +51,7 @@ nav a:hover{
     margin: 50px 0;
 }
 
-.centrada{
+.centrada {
     width: 100%;
     height: auto;
     margin: 30px;
@@ -65,13 +67,14 @@ nav a:hover{
     align-items: center;
 }
 
-@media (min-width: 600px){
-    .col{
+@media (min-width: 600px) {
+    .col {
         flex-direction: row;
         justify-content: space-around;
         padding: 0 50px;
     }
-    .cen{
+
+    .cen {
         max-height: 700px !important;
     }
 
